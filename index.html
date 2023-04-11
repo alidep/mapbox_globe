@@ -31,7 +31,7 @@ display: block;
 cursor: pointer;
 padding: 10px 20px;
 border-radius: 30px;
-line-height: 3.89rem;	
+line-height: 1.2rem;	
  transition: all .25s ease;
     
 }
@@ -56,9 +56,9 @@ center: [-90, 40]
 map.on('style.load', () => {
     map.setFog({
         color: 'rgb(186, 210, 235)', // Lower atmosphere
-        'high-color': 'rgb(36, 92, 223)', // Upper atmosphere
+        'high-color': 'rgb(243,243,243)', // Upper atmosphere
         'horizon-blend': 0.02, // Atmosphere thickness (default 0.2 at low zooms)
-        'space-color': 'rgb(243,243,243)', // Background color
+        'space-color': 'rgb(255,255,255)', // Background color
         'star-intensity': 0.0 // Background star brightness (default 0.35 at low zoooms )
     });
 });
